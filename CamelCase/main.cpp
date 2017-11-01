@@ -24,15 +24,15 @@
 using namespace std;
 
 int main(){
-  string s;
-  int count = 1;
-  cin >> s;
+   string s;
+   int count = 1;
+   cin >> s;
   
-  for(unsigned i=0; i<s.length(); ++i){
-    if(isupper(s.at(i)))
-      ++count;
+   for(unsigned i=0; i<s.length(); ++i){
+     if(isupper(s.at(i)))
+       ++count;
    }
-  cout << count << endl;
-  return 0;
+   cout << count << endl;
+   return 0;
 }
 

@@ -9,8 +9,8 @@
 template<typename T>
 void printArray(vector<T>& s)
 {
-  typename vector<T>::iterator it; 
-  for(it=s.begin() ; it < s.end(); it++) {
-    cout << *it << endl;
+   typename vector<T>::iterator it; 
+   for(it=s.begin() ; it < s.end(); it++) {
+     cout << *it << endl;
    }
 }
